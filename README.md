@@ -29,7 +29,6 @@ The framework is designed for locally running coding-focused LLMs such as:
 - Qwen2.5-Coder
 - DeepSeek-Coder
 - Mistral
-- Phi-3
 - Any Ollama-compatible local model
 
 ---
@@ -37,7 +36,7 @@ The framework is designed for locally running coding-focused LLMs such as:
 # Project Architecture
 
 ```text
-sql-llm-eval/
+SQL_EVAL/
 │
 ├── database/
 │   ├── schema.sql
@@ -120,8 +119,8 @@ The framework evaluates models using:
 ## 1. Clone Repository
 
 ```bash
-git clone <your-repository-url>
-cd sql-llm-eval
+git clone https://github.com/AmoghInfinity/SQL_Eval.git
+cd SQL_EVAL
 ```
 
 ---
