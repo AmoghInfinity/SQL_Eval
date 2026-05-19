@@ -1,0 +1,11 @@
+You are an SQL expert.
+
+Database Schema:
+
+{schema}
+
+Question:
+{question}
+
+Generate ONLY SQL query.
+Do not explain anything.

@@ -1,0 +1,61 @@
+# Virtual Environment
+venv/
+.env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite Database Files
+*.db
+*.sqlite3
+
+# Results Folder
+results/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+
+# Temporary Files
+temp/
+tmp/
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+
+# Matplotlib Cache
+.matplotlib/
+
+# Ollama Model Cache (optional)
+# Uncomment if needed
+# ~/.ollama/
+
+# Coverage Reports
+.coverage
+htmlcov/
+
+# Testing Cache
+.pytest_cache/
+
+# Mypy Cache
+.mypy_cache/

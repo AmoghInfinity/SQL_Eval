@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "difficulty": "easy",
+        "question": "Retrieve all employee details.",
+        "answer": "SELECT * FROM employees;"
+    },
+    {
+        "id": 2,
+        "difficulty": "easy",
+        "question": "Find employees earning more than 70000.",
+        "answer": "SELECT emp_name, salary FROM employees WHERE salary > 70000;"
+    },
+    {
+        "id": 3,
+        "difficulty": "medium",
+        "question": "Retrieve employee names and their project names.",
+        "answer": "SELECT e.emp_name, p.project_name FROM employees e JOIN employee_projects ep ON e.emp_id = ep.emp_id JOIN projects p ON ep.project_id = p.project_id;"
+    },
+    {
+        "id": 4,
+        "difficulty": "medium",
+        "question": "Find average salary per department.",
+        "answer": "SELECT dept_id, AVG(salary) AS avg_salary FROM employees GROUP BY dept_id;"
+    },
+    {
+        "id": 5,
+        "difficulty": "hard",
+        "question": "Find employees earning above department average salary.",
+        "answer": "SELECT emp_name, salary, dept_id FROM employees e WHERE salary > (SELECT AVG(salary) FROM employees WHERE dept_id = e.dept_id);"
+    }
+]
